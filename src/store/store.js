@@ -7,4 +7,5 @@ export const store = configureStore({
     auth: authSlice.reducer,
     journal: journalSlice.reducer
   },
+  devTools: false
 });
