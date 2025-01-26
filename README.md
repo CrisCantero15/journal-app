@@ -1,8 +1,11 @@
-# React + Vite
+# JournalApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📓 Aplicación Web realizada con el fin de practicar con las herramientas que ofrecen React y el patrón Redux (Redux Toolkit).
 
-Currently, two official plugins are available:
+🔐 La aplicación utiliza las siguientes herramientas para el lado servidor:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Firebase Authentication para manejar el apartado de authentication en el servidor.
+- Firestore Database como Base de Datos para el sistema de notas.
+- Cloudinary como servicio en la nueba donde subir las imágenes de las notas.
+
+📅 Para un correcto funcionamiento de Firestore Database, es necesario importar las variables de entorno utilizando la plantilla que aparece en el root de la aplicación (.env.template), utilizando las credenciales que ofrece Firestore Database para ello.
